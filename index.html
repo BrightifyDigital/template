@@ -1,1 +1,251 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title data-page-title>Home | Business Name</title>
+    <meta
+        name="description"
+        content="Learn more about our business, explore our services, and get in touch."
+    >
+
+    <meta name="theme-color" content="#183b32">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a class="brand" href="index.html">
+                <span class="brand-mark" data-brand-initials>BN</span>
+                <span data-business-name>Business Name</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation"
+                aria-expanded="false"
+                aria-controls="primary-navigation"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-nav" id="primary-navigation">
+                <a href="index.html" class="active">Home</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html" class="nav-cta">Get in touch</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-image"></div>
+
+            <div class="container hero-content">
+                <span class="eyebrow hero-eyebrow" data-hero-label>
+                    LOCAL BUSINESS · PERSONAL SERVICE
+                </span>
+
+                <h1 data-hero-heading>
+                    Good work.<br>
+                    A better experience.
+                </h1>
+
+                <p data-hero-description>
+                    We help our customers get what they need through thoughtful
+                    service, reliable work, and attention to the details that matter.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="contact.html" class="button button-primary" data-primary-cta>
+                        Get started
+                    </a>
+
+                    <a href="services.html" class="button button-outline-light">
+                        Explore services
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="status-dot"></span>
+                    <span data-hero-location>Serving our local community</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="intro-section section-padding">
+            <div class="container intro-grid">
+                <div>
+                    <span class="eyebrow">A LITTLE ABOUT US</span>
+
+                    <h2 data-intro-heading>
+                        A business built around doing things right.
+                    </h2>
+                </div>
+
+                <div class="intro-copy">
+                    <p data-intro-description>
+                        Finding the right business should feel straightforward.
+                        We focus on good communication, dependable service, and
+                        work we're proud to put our name on.
+                    </p>
+
+                    <a href="about.html" class="text-link">
+                        Get to know us <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-section section-padding section-muted">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">WHAT WE OFFER</span>
+                        <h2>How we can help</h2>
+                    </div>
+
+                    <a href="services.html" class="text-link">
+                        View all services <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+
+                <div class="service-grid" id="home-services">
+                    <!-- Service cards are generated from script.js. -->
+                </div>
+            </div>
+        </section>
+
+        <section class="difference-section section-padding">
+            <div class="container difference-grid">
+                <div class="difference-image">
+                    <img
+                        data-feature-image
+                        src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85"
+                        alt="A clean, welcoming professional workspace"
+                        loading="lazy"
+                    >
+                </div>
+
+                <div class="difference-copy">
+                    <span class="eyebrow">WHY WORK WITH US</span>
+
+                    <h2 data-difference-heading>
+                        The details make the difference.
+                    </h2>
+
+                    <p data-difference-description>
+                        We believe a good customer experience starts before the
+                        work even begins. From the first conversation to the
+                        finished result, we aim to make every step clear and easy.
+                    </p>
+
+                    <div class="value-list">
+                        <div class="value-item">
+                            <span class="value-number">01</span>
+                            <div>
+                                <h3>Clear communication</h3>
+                                <p>Know what to expect and who to contact.</p>
+                            </div>
+                        </div>
+
+                        <div class="value-item">
+                            <span class="value-number">02</span>
+                            <div>
+                                <h3>Thoughtful service</h3>
+                                <p>We take the time to understand what you need.</p>
+                            </div>
+                        </div>
+
+                        <div class="value-item">
+                            <span class="value-number">03</span>
+                            <div>
+                                <h3>Attention to detail</h3>
+                                <p>We care about the quality of our work.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="about.html" class="button button-dark">
+                        More about us
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container cta-content">
+                <span class="eyebrow">LET'S GET STARTED</span>
+
+                <h2 data-cta-heading>
+                    Have something in mind?
+                </h2>
+
+                <p data-cta-description>
+                    Tell us what you're looking for. We'd be happy to talk through
+                    the next steps.
+                </p>
+
+                <a href="contact.html" class="button button-light" data-bottom-cta>
+                    Contact us
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-main">
+            <div class="footer-brand">
+                <a class="brand brand-footer" href="index.html">
+                    <span class="brand-mark" data-brand-initials>BN</span>
+                    <span data-business-name>Business Name</span>
+                </a>
+
+                <p data-footer-description>
+                    Good service starts with a conversation.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Explore</h3>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="faq.html">FAQ</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <a data-email-link href="mailto:hello@example.com" data-email>
+                    hello@example.com
+                </a>
+                <a data-phone-link href="tel:+10000000000" data-phone>
+                    Add phone number
+                </a>
+                <span data-location>Business location</span>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>© <span data-current-year></span> <span data-business-name>Business Name</span>. All rights reserved.</p>
+            <p>Designed by Brightify Digital.</p>
+        </div>
+    </footer>
+</body>
+</html>

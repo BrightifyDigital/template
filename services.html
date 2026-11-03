@@ -1,1 +1,126 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Services | Business Name</title>
+    <meta name="description" content="Explore the services offered by our business.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a class="brand" href="index.html">
+                <span class="brand-mark" data-brand-initials>BN</span>
+                <span data-business-name>Business Name</span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-label="Open navigation"
+                aria-expanded="false" aria-controls="primary-navigation">
+                <span></span><span></span>
+            </button>
+
+            <nav class="main-nav" id="primary-navigation">
+                <a href="index.html">Home</a>
+                <a href="services.html" class="active">Services</a>
+                <a href="about.html">About</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html" class="nav-cta">Get in touch</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container page-hero-content">
+                <span class="eyebrow">WHAT WE DO</span>
+                <h1>Services designed around your needs.</h1>
+                <p data-services-intro>
+                    Take a look at what we offer and find the right place to start.
+                    If you aren't sure what you need, get in touch and we'll help.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-padding">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">OUR SERVICES</span>
+                        <h2>What we offer</h2>
+                    </div>
+                    <p class="section-heading-copy">
+                        Straightforward options. Helpful information. No guesswork.
+                    </p>
+                </div>
+
+                <div class="service-grid service-grid-large" id="all-services">
+                    <!-- Service cards are generated from script.js. -->
+                </div>
+
+                <div class="service-note">
+                    <p data-service-note>
+                        Need something different? Contact us to discuss your project
+                        and find out whether we can help.
+                    </p>
+                    <a href="contact.html" class="text-link">
+                        Ask us a question <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container cta-content">
+                <span class="eyebrow">READY WHEN YOU ARE</span>
+                <h2>Let's talk about what you need.</h2>
+                <p>Reach out and we'll help you figure out the next step.</p>
+                <a href="contact.html" class="button button-light">Contact us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-main">
+            <div class="footer-brand">
+                <a class="brand brand-footer" href="index.html">
+                    <span class="brand-mark" data-brand-initials>BN</span>
+                    <span data-business-name>Business Name</span>
+                </a>
+                <p data-footer-description>Good service starts with a conversation.</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Explore</h3>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="faq.html">FAQ</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <a data-email-link href="mailto:hello@example.com" data-email>hello@example.com</a>
+                <a data-phone-link href="tel:+10000000000" data-phone>Add phone number</a>
+                <span data-location>Business location</span>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>© <span data-current-year></span> <span data-business-name>Business Name</span>. All rights reserved.</p>
+            <p>Designed by Brightify Digital.</p>
+        </div>
+    </footer>
+</body>
+</html>
